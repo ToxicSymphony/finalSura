@@ -1,7 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 .dark{
  background-color: black;
+ font-family: 'Roboto', sans-serif;
 }
+
+.line-under{
+    text-decoration: underline rgb(255, 208, 0);
+}
+
+.text-yellow{
+    color: rgb(255, 208, 0);
+}
+
+.border-yellow{
+    border: 1px solid;
+    border-color: rgb(255, 208, 0);
+}
+
+.margin-extreme-top{
+    margin-top: 90%;
+}
+
+.margin-extreme-bottom{
+    margin-bottom: 20%;
+}
+.my-extreme{
+    margin-top: 40%;
+    margin-bottom: 30%;
+}
+
+.margin-extreme-top2{
+    margin-top: 30%;
+}
+
+.margin-extreme-start{
+    margin-left: 8%;
+}
+
+.margin-extreme-start2{
+    margin-inline-start: 20%;
+}
+
+.margin-extreme-start3{
+    margin-left: 24%;
+}
+
 
 
 

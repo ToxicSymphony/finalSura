@@ -6,9 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS only -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
@@ -18,18 +15,18 @@
 
 <body class="dark">
     <header>
-        <div class="container-fluid d-flex justify-content-start sticky-top">
-            <div class="d-flex flex-column flex-shrink-0 p-3 bg-light bg-dark mt-4" style="width: 280px;">
-                <div class="d-flex  justify-content-end mb-3 mb-md-0 ms-md-5 link-dark border border-warning">
-                  <img class="img-fluid w-100 bg-" src="./ALIMENTOS/foto.png" alt="">
+        <div class="container-fluid d-flex justify-content-start fixed-top">
+            <div class="d-flex flex-column flex-shrink-0 p-3 position-relative" style="width: 380px;">
+                <div class="col-12 col-md-8 ms-5 position-absolute mt-4 end-0 link-dark d-flex border-yellow justify-content-end ">
+                  <img class="img-fluid w-100 " src="./ALIMENTOS/foto.png" alt="">
                 </div>
-                <div class="col-4 col-md-1">
-                    <img class="img-fluid w-100" src="./ALIMENTOS/aside.png" alt="">
+                <div class="col-4 col-md-1 position-absolute me-5  start-100 " >
+                    <img class="img-fluid w-75" src="./ALIMENTOS/aside.png" alt="" style="height: 100vh;" >
                 </div>
-                <div class="container d-flex justify-content-end my-5 ms-2">
-                    <ul class="nav flex-column mb-auto  text-warning d-flex justify-content-end">
-                        <li class="mb-2 text-end">
-                            <b>PRYSMA P</b>HOTOGRAPHY
+                <div class="container margin-extreme-top margin-extreme-start">
+                    <ul class="nav flex-column text-yellow">
+                        <li class="mb-2 text-end ">
+                            <b class="fs-4">PRYSMA P</b>HOTOGRAPHY
                         </li>
                         <li class="mb-2 text-end">
                             Series fotograficas
@@ -40,42 +37,65 @@
                         </li>
                     </ul>
                 </div>
-    
-                <div class="container text-light my-5">
-                    <ul class="nav flex-column mb-auto me-5 fs-2">
+                <div class="container text-light my-extreme">
+                    <ul class="nav flex-column mb-auto  fs-2 ">
                         <li>
-                            INICIO
+                            <a class="line-under text-light" href="#">
+                                INICIO
+                            </a>
                         </li>
                         <li>
-                            SOBRE MI
+                            <a class="line-under text-light" href="#">
+                                SOBRE MI
+                            </a>
                         </li>
                         <li>
-                            CONTACTO
-                        </li>
+                            <a class="line-under text-light" href="#">
+                                CONTACTO
+                            </a>
+                        </li>    
                     </ul>
                 </div>
-    
-                <div class="container mt-5">
-                    <div class="row d-flex justify-content-start  mt-5">
-                        <div class="col-4 col-md-3 ">
+                <div class="container  ">
+                    <div class="row ">
+                        <div class="col-4 col-md-3">
                             <img class="img-fluid w-100" src="./ALIMENTOS/linkedin.png" alt="">
                         </div>
-                        <div class="col-4 col-md-3 align-self-center">
+                        <div class="col-4 col-md-3">
                             <img class="img-fluid w-100" src="./ALIMENTOS/instagram.png" alt="">
                         </div>
-                        <div class="coltext-start mt-3 text-warning">
-                            <p>Copyright &copy; Todos los derechos reservados. 2022</p>
-                          </div>
                     </div>
-                </div>        
+                </div>  
+                <div class="col-12 col-md-12 text-start my-3 ms-3 text-yellow">
+                    <p>Copyright &copy; Todos los derechos reservados. 2022</p>
+                  </div>
               </div>
-             
-
         </div>
-        
     </header>
 
-    <main>
+    <main class="container-fluid ">
+        <div class="container-fluid margin-extreme-start3 my-4">
+            <div class="row">
+                <div class="col-12 col-md-4 text-light">
+                    <p>Vista Sobre Mi</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid ">
+            <div class="row row-col-2 d-flex justify-content-around margin-extreme-start2">
+                <div class="col-6 col-md-5 bg-primary my-5">
+                    <img class="img-fluid w-100" src="./ALIMENTOS/3.jpg" alt="">
+                </div>
+                <div class="col-6 col-md-7 text-light align-self-center text-center ">
+                    <p>Hola, soy <span class="text-yellow">OSCAR CANO</span> </p><p>arquitecto y fotografo</p>
+                    <p>... Arquitecto interesado en el desarrollo del conocimiento y experimentación dela Arquitectura, basado en competencias y habilidades en Diseño y Representación gráfica, que busca en la Fotografía, un complemento creativo, sensible y productivo, para el crecimiento personal y profesional</p>
+                <!-- </div> <div class="col-6 col-md-8 text-light text-center align-self-center ">
+                  
+                </div> -->
+            </div>
+           
+        </div>
+        
 
     </main>
 
